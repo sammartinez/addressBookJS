@@ -3,13 +3,13 @@
 ### By Mike Chastain and Sam Martinez
 
 ## Description
-_[Live Demo ] (http://umamimike.github.io/Ep-Js-Address-Book/)_
+Within the application, the user has the ability to add contacts to the form and view each contact individually just by clicking their name. 
 
 ## Technologies Used
 _This project makes use of: [Mocha](https://mochajs.org/), and [Chai](http://chaijs.com/) as testing-frameworks. And has a dependency for jQuery._
 
 ### Legal
-Copyright (c) 2015 Mike Chastain
+Copyright (c) 2015 Mike Chastain & Sam Martinez
 
 This software is licensed under the MIT license.
 

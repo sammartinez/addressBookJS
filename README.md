@@ -1,6 +1,6 @@
 # _Address Book Exercises in Javascript_
 
-### By Mike Chastain and Sam Martinez
+### By Kyle Pratuch and Sam Martinez
 
 ## Description
 Within the application, the user has the ability to add contacts to the form and view each contact individually just by clicking their name.

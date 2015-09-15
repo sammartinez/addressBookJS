@@ -25,11 +25,11 @@ ul {
 #show-contact {
 	display: none;
 	font-family:initial;
-	border-style:dashed;
+	border-style:solid;
 	border-width:thin;
 	margin:16px;
 	padding:16px;
-	background:khaki;
+	background:#C3CED0;
 }
 
 .contact {
@@ -52,10 +52,11 @@ text-decoration: underline;
 
 
 header {
-    background: #ebaa7f;
-	border-bottom: 1px solid #db6e25;
+    background: #B0E0E6;
+	border-bottom: 1px solid #B0E0E6;
 	padding: 10px 0 10px 0;
 	margin-bottom: 10px;
+	text-shadow: 5px 4px 15px #5E787C;
 }
 
 pre {
@@ -78,8 +79,8 @@ word-wrap: break-word;                 /* IE 5.5+ and up */
 
 
 .site__footer {
-	background: #d5803b;
-	border-top: 1px solid #ebaa7f;
+	background: #B0E0E6;
+	border: 1px solid #69868A;
 }
 
 .footer__content {

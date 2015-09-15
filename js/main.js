@@ -98,10 +98,12 @@ $(document).ready(function() {
 });
 
 $(document).keypress(function(event) {
-    // var keycode = (event.keyCode ? event.keyCode:event.which);
-    if(event.which == 13) {
+    if(event.which === 13) {
+        var tim = new Audio('http://www.nebo.edu/learning_resources/ppt/sounds/Tim%20Allen%20aargh2.wav');
+        tim.play();
         alert("There's always money in the Banana Stand");
         $("#show-banana").show();
         event.preventDefault();
     }
+
 });

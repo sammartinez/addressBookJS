@@ -96,11 +96,12 @@ $(document).ready(function() {
   });
 
 });
-    $(document).keypress(function(event) {
-        var keycode = (event.keyCode ? event.keyCode:event.which);
-        if(keycode == 13) {
-            alert("There's always money in the Banana Stand");
-            $("#show-banana").show();
-            event.preventDefault();
-        }
-    });
+
+$(document).keypress(function(event) {
+    // var keycode = (event.keyCode ? event.keyCode:event.which);
+    if(event.which == 13) {
+        alert("There's always money in the Banana Stand");
+        $("#show-banana").show();
+        event.preventDefault();
+    }
+});

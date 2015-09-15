@@ -15,14 +15,15 @@ describe('Contact', function() {
 
 describe('Address', function() {
     it("creates a new address with the given specifications", function() {
-        var testAddress = new Address("110 Marine Ave", "Newport Beach", "California");
+        var testAddress = new Address("Business", "110 Marine Ave", "Newport Beach", "California");
+        expect(testAddress.addressType).to.equal("Business");
         expect(testAddress.street).to.equal("110 Marine Ave");
         expect(testAddress.city).to.equal("Newport Beach");
         expect(testAddress.state).to.equal("California");
     });
 
     it("adds the fullAddress method to all addresses", function() {
-        var testAddress = new Address("110 Marine Ave", "Newport Beach", "California");
-        expect(testAddress.fullAddress()).to.equal("110 Marine Ave, Newport Beach, California");
+        var testAddress = new Address("Business", "110 Marine Ave", "Newport Beach", "California");
+        expect(testAddress.fullAddress()).to.equal("Business, 110 Marine Ave, Newport Beach, California");
     });
 });

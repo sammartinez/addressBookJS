@@ -76,6 +76,10 @@ word-wrap: break-word;                 /* IE 5.5+ and up */
 /* width: 99%; */		       /* only if needed */
 }
 
+#show-banana {
+	display:none;
+}
+
 
 
 .site__footer {
